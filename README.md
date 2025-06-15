@@ -1,12 +1,98 @@
-# React + Vite
+# 📝 React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, minimal To-Do List app built using **Vite**, **React**, and **Tailwind CSS**. Tasks are stored in `localStorage`, with support for filtering, sorting, and state persistence across page reloads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Add, remove, and toggle task completion
+- 🔍 Filter tasks by status (All / Active / Completed)
+- ↕️ Sort tasks alphabetically (A-Z / Z-A)
+- 💾 Persistent task state with `localStorage`
+- 🎯 Responsive UI built with Tailwind CSS
+- ♻️ Clean, modular code structure (components, utils)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Shriansh2002/csi-todo.git
+cd react-todo-list
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Your app will be available at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🛠 Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🧪 Testing (Manual)
+
+Since this is a simple UI app, you can manually test via:
+
+1. ✅ Add a new task → check if it appears in the list
+2. ✅ Toggle a task → check if it is marked completed
+3. ✅ Delete a task → check if it is removed
+4. 🧭 Change filter/sort → observe task list update
+
+For automated testing (optional), consider tools like **React Testing Library**.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── TodoItem.jsx
+│   └── TodoList.jsx
+├── utils/
+│   └── storage.js
+├── App.jsx
+├── main.jsx
+├── index.css
+```
+
+---
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🧑‍💻 Author
+
+Built by [Shriansh Agarwal](https://shrianshagarwal.in)
+
+---
